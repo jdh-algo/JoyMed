@@ -3,11 +3,11 @@
 </h1>
 
 <div align='center'>
-    <a target="_blank" href="" onclick="return false;">Ju&nbsp;Huang</a>,&nbsp
-    <a target="_blank" href="" onclick="return false;">Xinyi&nbsp;Liu</a>,&nbsp
-    <a target="_blank" href="" onclick="return false;">Sheng&nbsp;Shi</a>,&nbsp
-    <a target="_blank" href="" onclick="return false;">Fangru&nbsp;Zhou</a>,&nbsp
-    <a target="_blank" href="" onclick="return false;">Jun&nbsp;Zhao</a>,&nbsp
+    <a target="_blank" href="" onclick="return false;">Ju&nbsp;Huang</a>&nbsp
+    <a target="_blank" href="" onclick="return false;">Xinyi&nbsp;Liu</a>&nbsp
+    <a target="_blank" href="" onclick="return false;">Sheng&nbsp;Shi</a>&nbsp
+    <a target="_blank" href="" onclick="return false;">Fangru&nbsp;Zhou</a>&nbsp
+    <a target="_blank" href="" onclick="return false;">Jun&nbsp;Zhao</a>&nbsp
     <a target="_blank" href="" onclick="return false;">Jun&nbsp;Xu</a>&nbsp
 </div>
 
@@ -34,14 +34,14 @@ To address these challenges, we propose JoyMed, a leading medical foundation mod
 
 ## 🛠️ Installation
 
-1. Installing vLLM:
+1. Installing vLLM
     ```shell
     uv venv
     source .venv/bin/activate
     uv pip install -U vllm --torch-backend=auto
     ```
 
-2. Install requirements.
+2. Running JoyMed-8B-v1.0
     ```bash
     vllm serve jdh-algo/JoyMed-8B-v1.0 \
         --tensor-parallel-size 8 \
