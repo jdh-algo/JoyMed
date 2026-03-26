@@ -1,3 +1,5 @@
+![JoyMed](assets/JoyMed.png "JoyMed"){: width="150"}
+
 <h1 align='center'>
   JoyMed: A Leading Medical Foundation Model with Adaptive Reasoning
 </h1>
