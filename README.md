@@ -1,4 +1,4 @@
-![JoyMed](assets/JoyMed.png "JoyMed"){: width="150"}
+<img src="assets/JoyMed.png" alt="JoyMed" title="JoyMed" width="150">
 
 <h1 align='center'>
   JoyMed: A Leading Medical Foundation Model with Adaptive Reasoning
