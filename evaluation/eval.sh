@@ -1,0 +1,1 @@
+python eval_model.py --model_name JoyMed --model_path /mnt/workspace/offline/huangju/model/model_save/auto-cot/grpo.exp4_2_v2.cold_start_exp1-ep2.stage1-v2.exp7_2_1_v5_1-args_ep3.v1-args_data-class-01-07_difficulty_rating_3st_vit-2e-7_add-nothink-think_gdpo_report-auto.rank_0/v0-20260320-084220/checkpoint-14285 --model_size 8 --eval_datasets OCR_LTR_fullparsing

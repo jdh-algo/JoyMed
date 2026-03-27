@@ -33,6 +33,7 @@
 
 ## 🔥 News
 
+- [2026-03-27]: 📝 We open-source the evaluation script for the related benchmark today, please refer to [evaluation/Readme.md](https://github.com/jdh-algo/JoyMed/blob/main/evaluation/Readme.md)!
 - [2026-03-26]: 📚 We release [📂 MedDocBench](https://huggingface.co/datasets/jdh-algo/MedDocBench), a self-collected medical benchmark dataset to facilitate research and evaluation in medical multimodal learning!
 - [2026-03-26]: ⚙️ We have released [🤗 JoyMed-8B-v1.0](https://huggingface.co/jdh-algo/JoyMed-8B-v1.0) for research and application! Welcome to use and explore!
 - [2026-03-26]: 🎉 We propose JoyMed, a medical foundation model with adaptive reasoning that balances reasoning accuracy and efficiency, achieves SOTA across multiple benchmarks, and advances the translation of medical multimodal large models to clinical applications!

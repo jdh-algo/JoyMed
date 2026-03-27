@@ -1,0 +1,39 @@
+{
+    "REASONING": true,
+    "only_text": {
+        "en": {
+                "system_prompt": null, 
+                "CHOICE": "{prompt}\nAnswer with the option's letter from the given choices directly. /think", 
+                "CLOSED": "{prompt}\nAnswer with the option's letter from the given choices directly. /think", 
+                "OPEN": "{prompt}\nPlease answer the question concisely. /think", 
+                "JUDGE": "{prompt}\nPlease output 'yes' or 'no'(no extra output). /think", 
+                "REPORT": "You are a helpful assistant. Please generate a report for the given images, including both findings and impressions. Return the report in the following format: Findings: {} Impression: {}. /think"
+              },
+        "zh": {
+                "system_prompt": null, 
+                "CHOICE": "{prompt}\n请直接使用给定选项中的选项字母来回答该问题。/think", 
+                "CLOSED": "{prompt}\n请直接使用给定选项中的选项字母来回答该问题。/think", 
+                "OPEN": "{prompt}\n请简要回答该问题。/think", 
+                "JUDGE": "{prompt}\n请输出'是'或'否'(不要有任何其它输出)。/think", 
+                "REPORT": "生成一份报告。/think"
+              }
+    }, 
+    "image_text":{
+        "en": {
+                "system_prompt": null, 
+                "CHOICE": "{prompt}\nAnswer with the option's letter from the given choices directly. /think", 
+                "CLOSED": "{prompt}\nAnswer the question using a single word or phrase. /think", 
+                "OPEN": "{prompt}\nPlease answer the question concisely. /think", 
+                "JUDGE": "{prompt}\nPlease output 'yes' or 'no'(no extra output). /think", 
+                "REPORT": "You are a helpful assistant. Please generate a report for the given images, including both findings and impressions. Return the report in the following format: Findings: {} Impression: {}. /think"
+              },
+        "zh": {
+                "system_prompt": null, 
+                "CHOICE": "{prompt}\n请直接使用给定选项中的选项字母来回答该问题。/think", 
+                "CLOSED": "{prompt}\n请用一个单词或者短语回答该问题。/think", 
+                "OPEN": "{prompt}\n请简要回答该问题。/think", 
+                "JUDGE": "{prompt}\n请输出'是'或'否'(不要有任何其它输出)。/think", 
+                "REPORT": "生成一份报告。/think"
+              }
+    }
+}
