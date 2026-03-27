@@ -13,8 +13,7 @@ supported_datasets = ["PMC_VQA","SLAKE","VQA_RAD","MedXpertQA-MM","PATH_VQA","MM
                       "DiagnosisArena", "GMAI-MMBench-val", "GMAI-MMBench-test","Know2Do",
                       "CT-RATE-VQA","CT-RATE-Report","M3D-Ori","M3D-Slice","3D-RAD","3D-RAD-Ori","3D-MIR","INSPECT","AMOS-MM-Report","AMOS-Ori-Report","Deeptumor-VQA","Deeptumor-Report",
                       "OCR_LTR_fullparsing", "OCR_LTR_simpleQA", "OCR_LTR_abnormalityQA", "OCR_GMD_simpleQA", "OCR_GMD_complexQA",
-                       ] + \
-                    [f"Professional-{task}" for task in ["新正高001","新正高002","新正高003","新正高028","新正高029","新正高030","新正高044","新正高053","新正高068","新正高111","新副高001","新副高002","新副高003","新副高028","新副高029","新副高030","新副高044","新副高053","新副高068","新副高111","副高002","正高029","正高001","副高028","正高044","正高003","副高029","正高053","正高015","副高044","正高068","正高019","副高053","主治305","正高020","副高068","副高015","正高030","正高002","副高030","正高111","正高028","副高111"]]
+                       ]
                   
 supported_models = ["JoyMed", "Qwen3-VL", "Qwen2.5-VL", "Lingshu", "HealthGPT", "HuatuoGPT", "MedGemma", "MedGemma_1_5","Hulu","Baichuan"] #注意需要输入对应的model_size
 

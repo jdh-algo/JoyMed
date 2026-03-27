@@ -87,7 +87,6 @@ python eval_model.py --model_name 'JoyMed' --model_path "/path/of/model/JoyMed" 
 ```shell
 python eval_model.py --model_name 'Qwen2.5-VL' --model_path "/path/of/model/Qwen2.5-VL-7B-Instruct" --eval_datasets 'Medbullets_op4' --model_size 7
 python eval_model.py --model_name 'Qwen2.5-VL' --model_path "/path/of/model/Qwen2.5-VL-32B-Instruct" --eval_datasets 'Medbullets_op4' --model_size 32
-python eval_model.py --model_name 'Qwen2.5-VL' --model_path "/path/of/model/Qwen2.5-VL-32B-Instruct" --eval_datasets 'Medbullets_op4' --model_size 32
 ```
 
 ## 🤝 Acknowledgments
