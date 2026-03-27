@@ -81,7 +81,7 @@ The best results on each benchmark and average accuracy are highlighted in **bol
 | Hulu-Med 7B | 77.20 | **67.51** | 18.53 | 71.72 | 31.10 | 73.45 | 78.93 | 64.94 | 57.47 | 60.09 |
 | **JoyMed 8B** | 78.20 | 65.36 | <u>23.67</u> | 82.75 | 37.10 | 82.64 | 92.06 | 73.05 | 68.18 | 67.00 |
 | **JoyMed 8B auto** | **79.40** | 66.58 | 23.55 | <u>83.05</u> | <u>38.04</u> | <u>84.84</u> | 91.42 | **74.35** | **70.46** | <u>67.96</u> |
-| **JoyMed 8B think** | <u>79.00</u> | <u>66.89</u> | **24.37** | **83.35** | **39.78** | **85.23** | <u>91.77</u> | <u>73.38</u> | <u>70.13</u> | **68.21** |
+| **JoyMed 8B thinking** | <u>79.00</u> | <u>66.89</u> | **24.37** | **83.35** | **39.78** | **85.23** | <u>91.77</u> | <u>73.38</u> | <u>70.13</u> | **68.21** |
 
 ### Medical Visual Question Answering Benchmarks
 The best results on each benchmark and average accuracy are highlighted in **bold**, and the scores with <u>underline</u> indicate the second best. Note that MedXQA and GMAI-MMB denote MedXpertQA-mm and GMAI-MMBench-test benchmarks.
@@ -101,7 +101,7 @@ The best results on each benchmark and average accuracy are highlighted in **bol
 | Hulu-Med 7B | 74.50 | 27.70 | 82.66 | 62.57 | **66.95** | **83.70** | 54.28 | 64.62 |
 | **JoyMed 8B** | 75.83 | 32.60 | 86.53 | 74.16 | 57.19 | <u>82.36</u> | 59.85 | 66.93 |
 | **JoyMed 8B auto** | <u>76.50</u> | **33.25** | **87.97** | <u>75.06</u> | 58.34 | 81.47 | **60.37** | <u>67.56</u> |
-| **JoyMed 8B think** | **79.16** | <u>33.20</u> | <u>86.82</u> | **75.34** | <u>58.52</u> | 81.43 | <u>60.35</u> | **67.83** |
+| **JoyMed 8B thinking** | **79.16** | <u>33.20</u> | <u>86.82</u> | **75.34** | <u>58.52</u> | 81.43 | <u>60.35</u> | **67.83** |
 
 ### Medical Document Understanding Benchmarks
 The best results on each benchmark and average accuracy are highlighted in **bold**, and the scores with <u>underline</u> indicate the second best.
@@ -122,7 +122,7 @@ The best results on each benchmark and average accuracy are highlighted in **bol
 | Hulu-Med 7B | 11.35 | 43.07 | 19.75 | 19.30 | 15.72 | 21.84 |
 | **JoyMed 8B** | 88.99 | **93.39** | 92.00 | 83.47 | <u>86.72</u> | <u>88.91</u> |
 | **JoyMed 8B auto** | <u>90.80</u> | 88.87 | **94.00** | **85.20** | 85.67 | <u>88.91</u> |
-| **JoyMed 8B think** | <u>90.80</u> | 88.87 | **94.00** | <u>85.10</u> | 85.47 | 88.85 |
+| **JoyMed 8B thinking** | <u>90.80</u> | 88.87 | **94.00** | <u>85.10</u> | 85.47 | 88.85 |
 
 ### Medical Image Report Generation Benchmarks
 The best results on each benchmark and average accuracy are highlighted in **bold**, and the scores with <u>underline</u> indicate the second best.
@@ -143,7 +143,7 @@ The best results on each benchmark and average accuracy are highlighted in **bol
 | Hulu-Med 7B | 28.94 | 94.57 | 51.07 | 36.15 | 158.91 | 63.50 | 68.37 |
 | **JoyMed 8B** | **32.54** | **120.90** | 55.68 | 42.85 | 190.94 | 64.90 | <u>84.63</u> |
 | **JoyMed 8B auto** | 31.68 | <u>120.55</u> | <u>55.73</u> | **44.94** | <u>195.59</u> | **65.96** | **85.74** |
-| **JoyMed 8B think** | <u>31.99</u> | 119.69 | **55.89** | 44.40 | 188.00 | <u>65.70</u> | 84.28 |
+| **JoyMed 8B thinking** | <u>31.99</u> | 119.69 | **55.89** | 44.40 | 188.00 | <u>65.70</u> | 84.28 |
 
 
 ## 🛠️ Installation
@@ -189,7 +189,7 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
-### **Think** mode
+### **Thinking** mode
 
 ```python
 from openai import OpenAI
