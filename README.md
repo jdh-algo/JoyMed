@@ -1,8 +1,10 @@
-<!-- <img src="assets/JoyMed.png" alt="JoyMed" title="JoyMed" width="150"> -->
-
 <h1 align='center'>
   JoyMed: A Leading Medical Foundation Model with Adaptive Reasoning
 </h1>
+
+<div align='center'>
+    <img src="assets/JoyMed.png" alt="JoyMed" title="JoyMed" width="150">  
+</div>
 
 <div align='center'>
     <a target="_blank" href="" onclick="return false;">Ju&nbsp;Huang</a>&nbsp
