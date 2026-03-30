@@ -1,26 +1,7 @@
 
 ## ⚙️ Installation
 
-### 1. Create base environment
-
-``` sh
-
-apt-get update && apt-get install -y default-jre
-
-conda create --prefix Eval python=3.10 -y
-conda activate Eval
-
-```
-
-### 2. Install requirements
-
-``` sh
-
-pip install -r requirements_eval.txt
-pip install flash_attn==2.8.3
-```
-
-### 3. Prepare nltk_data
+### 1. Prepare nltk_data
 
 To evaluate the report dataset, the nltk_data need to be downloaded.
 
@@ -29,7 +10,7 @@ import nltk
 nltk.download('wordnet','/path/of/anaconda3/envs/Eval/nltk_data')
 ```
 
-### 4. Prepare third party model
+### 2. Prepare third party model
 
 To evaluate the report dataset, the following models need to be downloaded.
 
