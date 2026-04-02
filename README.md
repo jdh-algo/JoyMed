@@ -26,13 +26,14 @@
 <div align='center'>
     <a href='https://github.com/jdh-algo/JoyMed'><img src='https://img.shields.io/github/stars/jdh-algo/JoyMed?style=social'></a>
     <a href='https://huggingface.co/jdh-algo/JoyMed-8B-v1.0'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-JoyMed%208B-yellow'></a>
-    <a href='https://huggingface.co/jdh-algo/JoyMed-32B-v1.0'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-JoyMed%2032B (Coming soon)-yellow'></a>
+    <a href='https://huggingface.co/jdh-algo/JoyMed-32B-v1.0'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-JoyMed%2032B-yellow'></a>
 </div>
 
 <br>
 
 ## 🔥 News
 
+- [2026-04-02]: 🎉 We are pleased to announce the release of [🤗 JoyMed-32B-v1.0](https://huggingface.co/jdh-algo/JoyMed-32B-v1.0) ! Welcome to use and explore!
 - [2026-03-27]: 📝 We open-source the evaluation script for the related benchmark today, please refer to [evaluation/Readme.md](https://github.com/jdh-algo/JoyMed/blob/main/evaluation/Readme.md)!
 - [2026-03-26]: 📚 We release [📂 MedDocBench](https://huggingface.co/datasets/jdh-algo/MedDocBench), a self-collected medical benchmark dataset to facilitate research and evaluation in medical multimodal learning!
 - [2026-03-26]: ⚙️ We have released [🤗 JoyMed-8B-v1.0](https://huggingface.co/jdh-algo/JoyMed-8B-v1.0) for research and application! Welcome to use and explore!
@@ -59,7 +60,7 @@ JoyMed comes in two variants with different parameter configurations:
 |  Model  |  Parameters  |                     Hugging Face                     |
 | :------: | :-------: | :--------------------------------------------------: |
 | JoyMed-8B-v1.0 | 8B | [🤗 JoyMed-8B-v1.0](https://huggingface.co/jdh-algo/JoyMed-8B-v1.0) |
-| JoyMed-32B-v1.0 | 32B | [🤗 JoyMed-32B-v1.0 (Coming soon)](https://huggingface.co/jdh-algo/JoyMed-32B-v1.0) |
+| JoyMed-32B-v1.0 | 32B | [🤗 JoyMed-32B-v1.0](https://huggingface.co/jdh-algo/JoyMed-32B-v1.0) |
 
 
 ## 🏆 Performance
